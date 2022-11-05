@@ -294,6 +294,33 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 	margin-top: 10px;
+	margin-bottom: 16px;
+}
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.socials-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #fff;
+	color: #afb1b8;
+}
+
+.socials-icon {
+	fill: currentColor;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+	background: #2196f3;
+	color: #fff;
 }
 
 /* =========ПІДВАЛ========= */
