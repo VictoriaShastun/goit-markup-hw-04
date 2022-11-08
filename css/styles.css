@@ -142,7 +142,8 @@ img {
 	fill: #757575;
 }
 
-.contact:hover .icon-header {
+.contact:hover .icon-header,
+.contact:focus .icon-header {
 	fill: var(--accent-color);
 }
 
@@ -179,6 +180,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 }
 .hero-title {
 	width: 696px;
@@ -230,10 +232,6 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.icon-skills {
-	margin: 0 auto;
 }
 
 .skills-title {
@@ -396,14 +394,11 @@ img {
 	background: #2f303a;
 	padding: 60px 0;
 }
-.socials-div {
-	margin-top: 12px;
-	margin-left: 70px;
-}
+
 .footer-div {
 	display: flex;
 	align-items: baseline;
-	/*gap: 70px;*/
+	gap: 70px;
 }
 .logo-footer {
 	font-size: 26px;
@@ -460,7 +455,8 @@ img {
 	background: rgba(255, 255, 255, 0.1);
 	color: #ffff;
 }
-.socials-ftr-link:hover {
+.socials-ftr-link:hover,
+.socials-ftr-link:focus {
 	background: #2196f3;
 }
 /* ====================ПОРТФОЛІО==================== */
